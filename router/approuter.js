@@ -1,7 +1,7 @@
 const express = require('express')
 let approuter = express.Router()
 const md5 = require('md5')
-const db = require('../db')
+const db = require('../db/db')
 const path = require('path')
 const root = path.join(__dirname,'../')
 
